@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      href="https://fonts.googleapis.com/css?family=Comic+Neue&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="style.css" />
+    <title>Goal tracker</title>
+  </head>
+  <body>
+    <header class="header">
+      <h3>Goal Tracker</h3>
+    </header>
+    <main class="main">
+      <form class="form">
+        <input type="text" placeholder="Enter your goal" id="goal" />
+        <input
+          type="date"
+          placeholder="Enter the date of completion"
+          id="date"
+        />
+        <button type="submit">Add Goal</button>
+      </form>
+    </main>
+
+    <section class="output">
+      <!-- <div class="card">
+        <ul>
+          <li>Goal: %goal%</li>
+          <li>Deadline: %date%</li>
+        </ul>
+      </div> -->
+    </section>
+    <script src="app.js"></script>
+  </body>
+</html>

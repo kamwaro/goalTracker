@@ -1,0 +1,48 @@
+:root {
+  --main--font: 'Comic Neue', cursive;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: var(--main--font);
+}
+
+.header {
+  padding: 0.6em;
+  font-size: 1.3rem;
+}
+
+.main {
+  padding: 0.6em;
+}
+
+.main form {
+  display: flex;
+}
+
+.main form input {
+  padding: 0.6em;
+}
+
+.main form button {
+  padding: 0.6em;
+}
+
+.output {
+  display: flex;
+  flex-wrap: wrap;
+  padding: 0.6em;
+}
+
+.card {
+  margin: 0.7em;
+}
+
+.card ul {
+  list-style: none;
+}
