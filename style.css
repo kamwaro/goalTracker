@@ -1,5 +1,8 @@
 :root {
   --main--font: 'Comic Neue', cursive;
+  --card-background-color: rgb(9, 25, 47);
+  --card-font-color: rgb(108, 240, 208);
+  --body-background: rgb(247, 247, 247);
 }
 
 * {
@@ -10,6 +13,7 @@
 
 body {
   font-family: var(--main--font);
+  background-color: var(--body-background);
 }
 
 .header {
@@ -36,11 +40,18 @@ body {
 .output {
   display: flex;
   flex-wrap: wrap;
-  padding: 0.6em;
+  padding: 0.1em;
 }
 
 .card {
   margin: 0.7em;
+  background-color: var(--card-background-color);
+  color: var(--card-font-color);
+  width: 10em;
+  height: 10em;
+  padding: 0.6em;
+  line-height: 1.6;
+  box-shadow: 0 0 5px 0 rgb(108, 240, 208);
 }
 
 .card ul {
