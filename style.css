@@ -35,12 +35,12 @@ body {
 
 .main form button {
   padding: 0.6em;
+  width: 10em;
 }
 
 .output {
   display: flex;
   flex-wrap: wrap;
-  padding: 0.1em;
 }
 
 .card {
@@ -52,8 +52,29 @@ body {
   padding: 0.6em;
   line-height: 1.6;
   box-shadow: 0 0 5px 0 rgb(108, 240, 208);
+  position: relative;
 }
 
 .card ul {
   list-style: none;
+}
+
+.delete-btn {
+  position: absolute;
+  top: -7px;
+  right: -4px;
+  border-radius: 50%;
+  padding: 0.3em 0.5em;
+  box-shadow: 0 0 10px 0 rgba(0, 0, 0);
+  outline: none;
+}
+
+@media (max-width: 500px) {
+  .header {
+    text-align: center;
+  }
+  .output {
+    justify-content: center;
+    align-items: center;
+  }
 }
